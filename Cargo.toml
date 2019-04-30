@@ -1,0 +1,16 @@
+[package]
+name = "fixed-bitset"
+version = "0.0.1"
+authors = ["Dylan MacKenzie <ecstaticmorse@gmail.com>"]
+edition = "2018"
+
+description = "A bitset whose size is fixed at compile-time"
+repository = "https://github.com/ecstatic-morse/fixed-bitset"
+categories = ["data-structures"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+typenum = "1.10.0"
+generic-array = "0.13.0"
+num-traits = "0.2.6"
